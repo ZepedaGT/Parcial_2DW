@@ -1,18 +1,6 @@
 {
   "employees": [
     {
-      "id": 1,
-      "name": "Ana García",
-      "email": "ana.garcia@empresa.com",
-      "position": "Desarrolladora Frontend",
-      "department": "Tecnología",
-      "salary": 8500,
-      "hireDate": "2022-03-15",
-      "status": "active",
-      "role": "employee",
-      "avatarUrl": "https://i.pravatar.cc/64?img=1"
-    },
-    {
       "id": 2,
       "name": "Carlos Martínez",
       "email": "carlos.martinez@empresa.com",
@@ -66,6 +54,35 @@
       "hireDate": "2022-11-14",
       "status": "active",
       "role": "employee"
+    }
+  ],
+  "capacitation": [
+    {
+      "id": 1,
+      "nombre": "React Avanzado",
+      "categoria": "Frontend",
+      "instrutor": "Ana García",
+      "fecha_inicio": "2026-09-20",
+      "fecha_fin": "2026-09-24",
+      "estado": "programada"
+    },
+    {
+      "id": 2,
+      "nombre": "SQL para RRHH",
+      "categoria": "Datos",
+      "instrutor": "Luis Pérez",
+      "fecha_inicio": "2026-09-18",
+      "fecha_fin": "2026-09-19",
+      "estado": "en_curso"
+    },
+    {
+      "id": 3,
+      "nombre": "Liderazgo Técnico",
+      "categoria": "Gestión",
+      "instrutor": "Sofía Ruiz",
+      "fecha_inicio": "2026-08-10",
+      "fecha_fin": "2026-08-12",
+      "estado": "finalizada"
     }
   ]
 }

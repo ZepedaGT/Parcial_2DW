@@ -53,6 +53,12 @@ function DashboardPage() {
         >
           Ver empleados →
         </Link>
+        <Link
+          to="/capacitaciones"
+          className="px-5 py-2.5 bg-brand-800 hover:bg-brand-700 text-white rounded-lg text-sm transition-colors"
+        >
+          Ver capacitaciones →
+        </Link>
       </div>
     </div>
   );

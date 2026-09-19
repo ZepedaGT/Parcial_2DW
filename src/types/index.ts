@@ -2,6 +2,8 @@
 
 // --- Tipos base del dominio ---
 
+export type CapacitationEstado = "programada" | "en_curso" | "finalizada" | "cancelada";
+
 export type Department =
   | "Tecnología"
   | "Recursos Humanos"
@@ -14,6 +16,16 @@ export type EmployeeRole = "admin" | "hr" | "employee";
 export type EmployeeStatus = "active" | "inactive" | "on_leave";
 
 // --- Entidad principal ---
+
+export interface Capacitation {
+  id: number;
+  nombre: string;
+  categoria: string;
+  instrutor: string;
+  fecha_inicio: string;
+  fecha_fin: string;
+  estado: CapacitationEstado;
+}
 
 export interface Employee {
   id: number;
