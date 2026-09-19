@@ -1,18 +1,6 @@
 {
   "employees": [
     {
-      "id": 1,
-      "name": "Ana García",
-      "email": "ana.garcia@empresa.com",
-      "position": "Desarrolladora Frontend",
-      "department": "Tecnología",
-      "salary": 8500,
-      "hireDate": "2022-03-15",
-      "status": "active",
-      "role": "employee",
-      "avatarUrl": "https://i.pravatar.cc/64?img=1"
-    },
-    {
       "id": 2,
       "name": "Carlos Martínez",
       "email": "carlos.martinez@empresa.com",
