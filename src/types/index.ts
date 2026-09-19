@@ -2,7 +2,7 @@
 
 // --- Tipos base del dominio ---
 
-export type CapacitationEstado = "Programada" | "en_curso" | "finalizada" | "cancelda";
+export type CapacitationEstado = "programada" | "en_curso" | "finalizada" | "cancelada";
 
 export type Department =
   | "Tecnología"
@@ -17,13 +17,14 @@ export type EmployeeStatus = "active" | "inactive" | "on_leave";
 
 // --- Entidad principal ---
 
-export interface Trining {
+export interface Capacitation {
   id: number;
   nombre: string;
   categoria: string;
   instrutor: string;
   fecha_inicio: string;
-  fecja_fin: string;
+  fecha_fin: string;
+  estado: CapacitationEstado;
 }
 
 export interface Employee {

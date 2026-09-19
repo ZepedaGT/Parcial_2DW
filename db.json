@@ -55,5 +55,34 @@
       "status": "active",
       "role": "employee"
     }
+  ],
+  "capacitation": [
+    {
+      "id": 1,
+      "nombre": "React Avanzado",
+      "categoria": "Frontend",
+      "instrutor": "Ana García",
+      "fecha_inicio": "2026-09-20",
+      "fecha_fin": "2026-09-24",
+      "estado": "programada"
+    },
+    {
+      "id": 2,
+      "nombre": "SQL para RRHH",
+      "categoria": "Datos",
+      "instrutor": "Luis Pérez",
+      "fecha_inicio": "2026-09-18",
+      "fecha_fin": "2026-09-19",
+      "estado": "en_curso"
+    },
+    {
+      "id": 3,
+      "nombre": "Liderazgo Técnico",
+      "categoria": "Gestión",
+      "instrutor": "Sofía Ruiz",
+      "fecha_inicio": "2026-08-10",
+      "fecha_fin": "2026-08-12",
+      "estado": "finalizada"
+    }
   ]
 }
